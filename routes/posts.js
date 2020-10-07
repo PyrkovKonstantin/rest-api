@@ -10,7 +10,7 @@ router.get('/', async (req,res)=>{
         res.status(500).json({message: 'server error'});
     }
 });
-
+//Здесь и далее комментарии автора 
 router.post('/', async (req,res)=>{
     console.log('success')
     try{const post = new Post({
